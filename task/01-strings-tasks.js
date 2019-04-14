@@ -69,8 +69,9 @@ function getStringFromTemplate(firstName, lastName) {
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
 function extractNameFromTemplate(value) {
-    return value.slice(7,-1);
+    //return value.slice(7,-1);
     //slice
+    throw new Error('Not implemented');
 }
 
 
@@ -85,7 +86,8 @@ function extractNameFromTemplate(value) {
  *   'cat'       => 'c'
  */
 function getFirstChar(value) {
-    return value[0];
+    //return value[0];
+    throw new Error('Not implemented');
 }
 
 /**
@@ -100,7 +102,7 @@ function getFirstChar(value) {
  *   '\tHello, World! ' => 'Hello, World!'
  */
 function removeLeadingAndTrailingWhitespaces(value) {
-    return 
+    throw new Error('Not implemented');
 }
 
 /**
@@ -115,7 +117,8 @@ function removeLeadingAndTrailingWhitespaces(value) {
  *   'cat', 3 => 'catcatcat'
  */
 function repeatString(value, count) {
-    return value.repeat(count);
+   // return value.repeat(count);
+   throw new Error('Not implemented');
 }
 
 /**
@@ -131,7 +134,7 @@ function repeatString(value, count) {
  *   'ABABAB','BA' => 'ABAB'
  */
 function removeFirstOccurrences(str, value) {
-    return 
+    throw new Error('Not implemented');
 }
 
 /**
@@ -146,7 +149,8 @@ function removeFirstOccurrences(str, value) {
  *   '<a>' => 'a'
  */
 function unbracketTag(str) {
-    return str.slice(1,-1);
+   // return str.slice(1,-1);
+   throw new Error('Not implemented');
 }
 
 
@@ -161,7 +165,8 @@ function unbracketTag(str) {
  *  'abcdefghijklmnopqrstuvwxyz' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
 function convertToUpperCase(str) {
-    return (str.toUpperCase());
+    throw new Error('Not implemented');
+    //return (str.toUpperCase());
 }
 
 /**
@@ -175,7 +180,8 @@ function convertToUpperCase(str) {
  *   'info@gmail.com' => ['info@gmail.com']
  */
 function extractEmails(str) {
-    return str.split(';');
+   // return str.split(';');
+   throw new Error('Not implemented');
 }
 
 /**
